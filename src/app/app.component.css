@@ -1,0 +1,18 @@
+table,tr,th,td {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: black;
+    animation: tabAni 2s infinite alternate;
+    color:aliceblue;
+}
+@keyframes tabAni {
+    from{
+        background-color: rgb(0, 242, 255);
+    }
+    to{
+         background-color: rgb(6, 30, 22);
+    }   
+   
+}
+td,tr,th:hover{
+    background-color: darkgoldenrod;
+}
